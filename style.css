@@ -1,0 +1,55 @@
+body{
+  background-image: url("sea.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: serif;
+}
+
+/*ページ*/
+#page {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*投稿表示欄*/
+#contents {
+  background-color: rgba(240,255,255,1);
+  padding: 1px 10px;
+}
+
+/*コメント表示欄*/
+#comments {
+  background-color: rgba(240,255,240,0.6);
+  padding: 5px 10px;
+}
+
+#commentname {
+  background-color: rgba(250,240,230,0.6);
+  text-align: center;
+  vertical-align: top;
+}
+
+/*ページタイトル*/
+.pageTitle {
+  background-color: #66E4AF;
+  border-bottom: solid 3px #745B34;
+  padding: 5px 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+/*投稿タイトル*/
+.title {
+  border: 1px solid #CCCCCC;
+  background-color: #EEEEEE;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+
+#copyright samll {
+  font-size: 12px;
+  line-height: 1.5;
+}
